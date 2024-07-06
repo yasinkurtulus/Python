@@ -20,3 +20,6 @@ fruit=["strawberries","nectainers","apples"]
 dirty_dozen=[fruit,vegetables]
 print(dirty_dozen)
 print(dirty_dozen[0][1])
+lists=[11,11,11]
+lists.remove(11)
+print(lists)
