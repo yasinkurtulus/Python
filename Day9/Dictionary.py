@@ -12,3 +12,6 @@ print(programming_dictionary)
 for key in programming_dictionary:
     print(key)
     print(programming_dictionary[key])
+a={"a":5,"b":3}
+b={"a":3}
+print(a["b"]-b["b"])
