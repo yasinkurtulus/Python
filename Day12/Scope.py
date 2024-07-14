@@ -40,6 +40,15 @@
 # #firstly you should invoke the func, otherwise you will get an error
 # myfunc()
 # print(x
+list=[0,1]
+a=5
+def change_list():
+    a=3
+    list.append(2)
+
+change_list()
+print(list)
+print(a)
 
 
 

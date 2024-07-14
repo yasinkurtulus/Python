@@ -12,6 +12,8 @@ print(programming_dictionary)
 for key in programming_dictionary:
     print(key)
     print(programming_dictionary[key])
-a={"a":5,"b":3}
+a={"a":5,"b":3,"c":99,"f":55}
 b={"a":3}
-print(a["b"]-b["b"])
+print(3 in a.values())
+print(a.popitem())
+
